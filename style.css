@@ -7,6 +7,7 @@
 body{
     background-color: black;
     background-image: url("./images/bg.png");
+    background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
     
@@ -336,6 +337,7 @@ nav{
         max-width: 93vw;
         padding: 2vh 4vw;
         margin: 0 2vw;
+        font-size: 3vw;
     }
     
     .logo{
@@ -357,8 +359,8 @@ nav{
     }
 
     .head{
-        width: 80vw;
-        font-size: 380%;
+        width: 70vw;
+        font-size: 10vw;
         padding: 0vh 10vw;
     }
 
@@ -384,14 +386,22 @@ nav{
         font-size: 200%;
     }
     .p-subtitle{
-        font-size: 180%;
+        font-size: 5vw;
     }
     .p-para{
-        font-size: 140%;
+        font-size: 4vw;
         width: 60vw;
     }
     .phone{
         display: none;
+    }
+
+    .p-button{
+        font-size: 4vw;
+    }
+
+    .arrow-icon{
+        width: 24px;
     }
 
     .t-card{
@@ -404,13 +414,13 @@ nav{
         padding: 4vh 10vw;
     }
     .t-para{
-        font-size: 100%;
+        font-size: 4vw;
         width: 80vw;
-        padding: 0vh 10vw;
+        padding: 1vh 10vw;
     }
 
     .f-button{
-        font-size: 100%;
+        font-size: 4vw;
     }
     .talk{
         margin: 2vh 10vw;
@@ -436,7 +446,7 @@ nav{
         margin: 2vh 10vw;
     }
     .co{
-        font-size: 100%;
+        font-size: 3vw;
     }
   }
 
@@ -447,4 +457,10 @@ nav{
     .title{
         max-width: 50vw;
     }
+
+    body{
+        background-image: url("./images/bg-m2.png");
+    }
   }
+
+
