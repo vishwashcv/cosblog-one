@@ -302,6 +302,8 @@ nav {
 
   nav {
     max-width: 93vw;
+    min-width: 280px;
+    min-height: 50px;
     padding: 2vh 4vw;
     margin: 0 2vw;
     font-size: 3vw;
@@ -311,7 +313,7 @@ nav {
     margin: 0 0vw 0 0;
   }
   .title {
-    font-size: 10vw;
+    font-size:  35px;
     max-width: 80vw;
     margin: 2vh 4vw 26vh 4vw;
   }
@@ -326,7 +328,7 @@ nav {
 
   .head {
     width: 70vw;
-    font-size: 10vw;
+    font-size: 35px;
     padding: 0vh 10vw;
   }
 
@@ -355,7 +357,7 @@ nav {
     font-size: 5vw;
   }
   .p-para {
-    font-size: 4vw;
+    font-size: 100%;
     width: 60vw;
   }
   .phone {
@@ -363,7 +365,7 @@ nav {
   }
 
   .p-button {
-    font-size: 4vw;
+    font-size: 100%;
   }
 
   .arrow-icon {
@@ -380,13 +382,13 @@ nav {
     padding: 4vh 10vw;
   }
   .t-para {
-    font-size: 4vw;
+    font-size: 100%;
     width: 80vw;
     padding: 1vh 10vw;
   }
 
   .f-button {
-    font-size: 4vw;
+    font-size: 100%;
   }
   .talk {
     margin: 2vh 10vw;
@@ -412,7 +414,7 @@ nav {
     margin: 2vh 10vw;
   }
   .co {
-    font-size: 3vw;
+    font-size: 11px;
   }
 }
 
