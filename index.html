@@ -18,9 +18,9 @@
     <center>
       <nav>
         <img class="logo" src="./images/logo.svg" />
-        <div class="contact">Projects</div>
-        <div>Services</div>
-        <div class="end-nav">Contact Us</div>
+        <div onclick="location.href = '#services';" class="contact b">Services</div>
+        <div onclick="location.href = '#project';" class="b" >Projects</div>
+        <div onclick="location.href = '#talk';" class="end-nav b">Contact Us</div>
       </nav>
     </center>
     <div class="title">
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="our-services">Our Services</div>
+    <div id="services" class="our-services">Our Services</div>
     <div class="cards">
       <div class="card-s service product-s">Product Design & Branding</div>
       <div class="card-s service">Mobile Development</div>
@@ -81,7 +81,7 @@
       >
     </div>
 
-    <div class="project">
+    <div id="project" class="project">
       <div class="our-services one-of">One Of Our Works</div>
       <div class="p-flex">
         <div class="p-content">
@@ -92,7 +92,7 @@
             results, we designed the entire application and conducted user
             research.
           </div>
-          <div class="p-button">
+          <div onclick="location.href = 'Urzza.html';" class="p-button">
             Study <img class="arrow-icon" src="./images/arrow.svg" />
           </div>
         </div>
@@ -100,8 +100,8 @@
       </div>
     </div>
 
-    <div class="t-card">
-      <div class="t-title">Mail to a specialist</div>
+    <div id="talk" class="t-card">
+      <div class="t-title">Talk to a specialist</div>
       <div class="t-para">
         At Cosblog, we pride ourselves on providing exceptional customer service
         and support. Our team of experts is dedicated to helping you navigate
@@ -110,19 +110,21 @@
         recommendations, or just some friendly advice, our experts are ready to
         assist you.
       </div>
-      <div class="f-button talk">Talk</div>
+      <div onclick="window.open('mailto:test@example.com')" class="f-button talk">Talk</div>
     </div>
 
     <div class="footer">
       <div class="links">
-        <div class="link">LinkedIn</div>
-        <div class="link">Instagram</div>
-        <div class="link">Twitter</div>
+        <div class="link b">LinkedIn</div>
+        <div class="link b">Instagram</div>
+        <div class="link b">Twitter</div>
       </div>
-      <div class="back"><div class="f-button">Back to Top</div></div>
+      <div class="back"><div onclick="window.scrollTo(0, 0);" class="f-button">Back to Top</div></div>
     </div>
 
     <div class="co">Copyright © 2023 Cosblog Pvt Ltd. All Rights Reserved</div>
   </body>
-  <script></script>
+  <script>
+    document.getElementById("divElement").scrollIntoView();
+  </script>
 </html>
